@@ -29,9 +29,6 @@ def measure(ID,words):
 def spi_send(spi_arr):
     to_send = []*len(spi_arr)
     for i in range(len(spi_arr)):
-            print(spi_arr)
-            print(spi_arr[i])
-            print(int(spi_arr[i],16))
             to_send.append(int(spi_arr[i],16))
     
     print(to_send)    
