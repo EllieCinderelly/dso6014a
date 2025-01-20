@@ -1,5 +1,10 @@
 import paramiko
 
+"""
+Windows-side scipt for SSHing into an rpi, controlling pins, test equipment, etc...
+
+"""
+
 host = ""
 username = ""
 password = ""

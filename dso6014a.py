@@ -4,7 +4,7 @@ import spidev
 
 # Intended use for this file is SSH control to RPi SPi outputs and controlling the Agilent DSO6014A 
 # windows python ssh -> rpi spidev and pyvisa-py
-# 
+# This file goes on the pi
 # windows IVI drivers for DSO6014A seem to be very deprecated. Pyvisa-py on rpi4 is proving best here
 
 
